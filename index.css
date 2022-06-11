@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --backgroundColor: #FAFAFA;
+    --borderColor: #fafafaee;
+    --white: #FFF;
+    --lightBlue: #0095F6;
+    --darkBlue: #385185;
+}
+
+body{
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+}
+
+main{
+    width: 50%;
+}
+
+form{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    padding: 20px;
+    background-color: var(--backgroundColor);
+    border: var(--backgroundColor) 1px solid;
+    border-radius: 5px;
+}
+
+#instagram{
+}
+
+#facebook{
+    width: 25px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: var(--lightBlue);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+}
+
+section{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
