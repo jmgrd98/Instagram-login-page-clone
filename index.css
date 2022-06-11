@@ -16,6 +16,7 @@
 }
 
 body{
+    height: 100vh;
     background-color: var(--backgroundColor);
     display: flex;
     flex-direction: row-reverse;
